@@ -234,7 +234,7 @@ namespace ElectoralGiftSystem.Controllers
 
             if(birthDate.Month > DateTime.Now.Month)
             {
-                nextBirthYear += + 1;
+                nextBirthYear += 1;
             }
 
             return nextBirthYear;
